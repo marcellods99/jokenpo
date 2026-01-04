@@ -27,7 +27,8 @@ sleep(2)
 
 print('-'*19)
 
-jogadapc = aleatorio = randint(0,2)   # guarda o número do PC + Jogada do PC (número)
+aleatorio = randint(0, 2)    # 1º: cria a variável
+jogadapc = aleatorio         # 2º: copia o valor
 jogada_pc_texto = lista[aleatorio] # texto: "Pedra"/"Papel"/"Tesoura"
 jogada_jogador_texto = lista[escolha]
 
